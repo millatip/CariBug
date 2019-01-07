@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:layout_gravity="center"
+    android:background="@drawable/bg"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:text="@string/nama"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/btn_bg"
+        android:text="@string/call_my_name"
+        android:textColor="@android:color/white"
+        android:textSize="11sp"/>
+</LinearLayout>
